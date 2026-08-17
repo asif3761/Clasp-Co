@@ -12,24 +12,24 @@ window.CLASP_PRODUCTS = {
   ],
   items: {
     "bags-women": [
-      { name: "The Everyday Tote", desc: "Full-grain leather, brass hardware, fits a 14\" laptop.", price: 6800, icon: "tote" },
-      { name: "The Crossbody Mini", desc: "Adjustable strap, magnetic clasp, room for the essentials.", price: 4200, icon: "cross" },
-      { name: "The Weekend Bag", desc: "Waxed canvas with leather trim, one strap, no fuss.", price: 8500, icon: "duffel" },
+      { id: "everyday-tote", name: "The Everyday Tote", desc: "Full-grain leather, brass hardware, fits a 14\" laptop.", price: 6800, icon: "tote" },
+      { id: "crossbody-mini", name: "The Crossbody Mini", desc: "Adjustable strap, magnetic clasp, room for the essentials.", price: 4200, icon: "cross" },
+      { id: "weekend-bag", name: "The Weekend Bag", desc: "Waxed canvas with leather trim, one strap, no fuss.", price: 8500, icon: "duffel" },
     ],
     "bags-men": [
-      { name: "The Commuter Backpack", desc: "Water-resistant canvas, leather base, padded laptop sleeve.", price: 7200, icon: "backpack" },
-      { name: "The Messenger", desc: "Structured, laptop-safe, sits flat instead of slouching.", price: 6500, icon: "messenger" },
-      { name: "The Travel Duffel", desc: "Full-grain leather, reinforced base, carry-on sized.", price: 9200, icon: "duffel" },
+      { id: "commuter-backpack", name: "The Commuter Backpack", desc: "Water-resistant canvas, leather base, padded laptop sleeve.", price: 7200, icon: "backpack" },
+      { id: "messenger", name: "The Messenger", desc: "Structured, laptop-safe, sits flat instead of slouching.", price: 6500, icon: "messenger" },
+      { id: "travel-duffel", name: "The Travel Duffel", desc: "Full-grain leather, reinforced base, carry-on sized.", price: 9200, icon: "duffel" },
     ],
     wallets: [
-      { name: "Slim Bifold", desc: "RFID-safe, six card slots, no bulk in your pocket.", price: 1800, icon: "wallet" },
-      { name: "Cardholder", desc: "Minimal, four card slots, fits in a palm.", price: 1200, icon: "card" },
-      { name: "Zip Pouch", desc: "Coin and card pouch, brass zip pull.", price: 1500, icon: "pouch" },
+      { id: "slim-bifold", name: "Slim Bifold", desc: "RFID-safe, six card slots, no bulk in your pocket.", price: 1800, icon: "wallet" },
+      { id: "cardholder", name: "Cardholder", desc: "Minimal, four card slots, fits in a palm.", price: 1200, icon: "card" },
+      { id: "zip-pouch", name: "Zip Pouch", desc: "Coin and card pouch, brass zip pull.", price: 1500, icon: "pouch" },
     ],
     wearables: [
-      { name: "Classic Leather Belt", desc: "Solid brass buckle, full-grain strap, resizable.", price: 2200, icon: "belt" },
-      { name: "Reversible Belt", desc: "Two finishes in one strap — black and tan.", price: 2600, icon: "belt" },
-      { name: "Woven Bracelet", desc: "Braided leather with a brass clasp, unisex sizing.", price: 900, icon: "bracelet" },
+      { id: "classic-belt", name: "Classic Leather Belt", desc: "Solid brass buckle, full-grain strap, resizable.", price: 2200, icon: "belt" },
+      { id: "reversible-belt", name: "Reversible Belt", desc: "Two finishes in one strap — black and tan.", price: 2600, icon: "belt" },
+      { id: "woven-bracelet", name: "Woven Bracelet", desc: "Braided leather with a brass clasp, unisex sizing.", price: 900, icon: "bracelet" },
     ],
   },
 };

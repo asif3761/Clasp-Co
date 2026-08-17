@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 64">
+  <!-- CLASP & CO. — full lockup (icon + wordmark)
+       Wordmark uses Fraunces (site's display font). If viewed
+       somewhere without that font loaded, it falls back to serif. -->
+  <g>
+    <rect x="1" y="10" width="34" height="44" rx="10"
+          fill="none" stroke="#2B2420" stroke-width="3"/>
+    <rect x="-4" y="28" width="44" height="8" rx="4" fill="#C1552C"/>
+    <circle cx="18" cy="32" r="3.4" fill="#2B2420"/>
+  </g>
+  <text x="52" y="30" font-family="Fraunces, Georgia, serif" font-size="24"
+        font-weight="500" letter-spacing="0.5" fill="#2B2420">CLASP</text>
+  <text x="52" y="52" font-family="Fraunces, Georgia, serif" font-size="24"
+        font-style="italic" font-weight="500" fill="#C1552C">&amp; CO.</text>
+</svg>

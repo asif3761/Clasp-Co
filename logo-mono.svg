@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- CLASP & CO. — single-color mark. Change currentColor via CSS
+       (e.g. color: #F5EFE6;) to recolor for dark backgrounds. -->
+  <rect x="15" y="10" width="34" height="44" rx="10"
+        fill="none" stroke="currentColor" stroke-width="3"/>
+  <rect x="10" y="28" width="44" height="8" rx="4" fill="currentColor"/>
+  <circle cx="32" cy="32" r="3.4" fill="currentColor" opacity="0"/>
+  <circle cx="32" cy="32" r="3.4" fill="#F5EFE6"/>
+</svg>

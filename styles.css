@@ -56,9 +56,11 @@ p{ margin:0; }
   background:linear-gradient(to bottom, rgba(245,239,230,.94), rgba(245,239,230,.7) 75%, transparent);
   backdrop-filter:blur(8px);
 }
-.wordmark{ font-family:var(--display); font-style:italic; font-size:1.3rem; letter-spacing:.01em; color:var(--ink); }
+.wordmark{ font-family:var(--display); font-style:italic; font-size:1.3rem; letter-spacing:.01em; color:var(--ink); display:inline-flex; align-items:center; }
 .wordmark.small{ font-size:1.1rem; }
 .wordmark .amp{ color:var(--accent); }
+.logo-img{ height:34px; width:auto; display:block; }
+.footer-logo-img{ height:26px; width:auto; display:block; }
 .main-nav{ display:flex; gap:clamp(18px,3vw,36px); font-size:.85rem; }
 .main-nav a{ position:relative; color:var(--ink-dim); transition:color .3s var(--ease); }
 .main-nav a:hover{ color:var(--ink); }
